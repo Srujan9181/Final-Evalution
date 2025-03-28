@@ -1,7 +1,7 @@
 import React from 'react'
 import Face from '../assets/Frame.png'
 import './login.css'
-import Logo from '../assets/Logo.png'
+import Logo from '../assets/logo.png'
 import { useNavigate } from'react-router-dom'
 
 function login() {
