@@ -18,7 +18,7 @@ function Navbar() {
             <NavLink to='/dashboard/availability'><img src={Availability} alt="" />Availability</NavLink>
             <NavLink to='/dashboard/settings'><img src={Settings} alt="" />Settings</NavLink>
             {location.pathname === '/dashboard' && (
-          <button className='createmeating' onClick={createevent}>Create</button>
+          <button className='createmeating' >Create</button>
         )}
         </div>
         
