@@ -1,6 +1,6 @@
 import React from 'react'
 import './Preaferences.css'
-import Logo from '../assets/Logo.png'
+import Logo from '../assets/logo.png'
 import Face from '../assets/Frame.png'
 import buiding from '../assets/building.png'
 import book from '../assets/book.png'
