@@ -1,0 +1,68 @@
+.Preferences-main{
+    width: 100vw;
+    display: flex;
+}
+
+.preferences-from{
+    height: 100vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+.Face-img{
+    width: 30%;
+    height: 100vh;
+}
+
+
+.preferences-choose{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   justify-content: space-between;
+   align-items: center;
+    
+}
+
+.preferences-options{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+    
+}
+
+.preferences-options button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.preferences-options button:hover{
+    background-color: #1877f2;
+    color: white;
+}
+
+#submit,input{
+    width: 70%;
+    padding: 10px;
+    
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+#submit{
+    border: none;
+}
+
+#submit:hover{
+    background-color: #1877f2;
+    color: white;
+    
+    border-radius: 30px;
+}

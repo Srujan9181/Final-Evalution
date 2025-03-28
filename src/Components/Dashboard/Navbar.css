@@ -1,0 +1,67 @@
+.Navbar{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 100%;
+    align-items: start;
+    box-sizing: border-box;
+}
+
+#Navlinks{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+}
+#Navlinks a{
+   
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+    border-right: none;
+    padding-left: 20px;
+    border-top-right-radius: 0px 100px;
+    border-bottom-right-radius: 0px 100px;
+    color: inherit;
+    outline: none;
+    
+   
+    
+}
+
+
+#Navlinks a img{
+    margin-right: 10px;
+
+}
+
+.active{
+    color: blue;
+    background-color: #f2f2f0;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+
+
+#logonav{
+    width: 50%;
+    height: 5%;
+    margin-bottom: 10%;
+    padding: 10px;
+}
+
+#Navlinks .createmeating{
+    text-align: center;
+    background-color: white;
+    color: #1877F2;
+    border:2px solid #1877F2;
+    border-radius: 40px;
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 15%;
+    padding: 5px;
+    height: 6%;
+}
+

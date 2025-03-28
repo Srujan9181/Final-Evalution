@@ -1,0 +1,9 @@
+.dashboard{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.dashboard-content{
+    background-color: #f3f3f1;
+    width: 100%;
+}

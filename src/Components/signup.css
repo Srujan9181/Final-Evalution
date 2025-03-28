@@ -1,0 +1,32 @@
+.signup{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+}
+
+.formheading{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#termsandcondition:hover{
+    cursor: pointer;
+}
+
+.navlogin{
+    font-size: x-small;
+    color: blue;
+}
+
+label{
+    text-align: start;
+    color: #666666;;
+}
+
+#form #name,#form #password,#form #email,#form #lastname{
+    background-color: white;
+    border: 2px solid #666666;
+}
